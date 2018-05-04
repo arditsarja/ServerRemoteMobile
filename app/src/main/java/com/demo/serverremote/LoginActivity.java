@@ -103,6 +103,7 @@ public class LoginActivity extends AppCompatActivity {
 
     public void changeIp(View v){
         Constants.refactor(ip.getText().toString());
+        Toast.makeText(getBaseContext(),"Ip is changed!",Toast.LENGTH_SHORT).show();
     }
 
     private static String convertInputStreamToString(InputStream inputStream) throws IOException {

@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
             Log.d("InputStream", e.getLocalizedMessage());
         }
 
-        return "Dsfdsf";
+        return "Captured";
     }
 
 
